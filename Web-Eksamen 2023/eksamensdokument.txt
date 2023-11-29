@@ -1,0 +1,16 @@
+
+eksamensdokument
+
+Ivar Roterud, 2023
+
+Vanskelighetsgrad: Minstekrav
+
+
+
+Hadde en del utfordringer med å få noe fremgang i footer logo plassering, endte med å legge den inn i samme <div id som topplogoen på siden. Kom ikke frem til en bedre måte å få frem logo uten <div>-taggen.
+
+Gjenbrukte "logo-3" ifra logoene vi fikk utdelt når det kom til artiklene på produkt og index-sidene.
+
+ 
+
+

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+}  
+@media only screen and (min-width:  700px){}
+
+
+
+header{
+    background-color: #fff;
+    max-height: 500px;
+    
+}
+body {
+    display: block;
+    margin: 0px;
+    border: 0;
+}
+
+#front-page-container{
+    display: flex;
+    float: left;
+}
+
+ul.navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: right;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+    padding-inline-start: 40px;
+    /*https://www.w3schools.com/css/css_navbar.asp, for å endre utseendet på navigasjonsmenyen og lettere forstå hvordan *pynte**/
+}
+
+.meny{
+    margin: 2px;
+    padding: 3px;
+    list-style: square;
+    color: black;
+    float: right;
+}
+
+li a {
+    display: block;
+    width: 60px;
+  }
+
+.contacts{
+    display: list-item;
+}
+
+article{
+    justify-content: center;
+}
+.tbody{
+    padding: 2px;
+    border-color:  black;
+    border: solid;
+}
+
+
+a{
+    text-decoration: none; 
+}
+
+a:hover{
+    color: rgb(0, 47, 255);
+}
+
+
+nav{
+    overflow: auto;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+#button{
+    text-align: center;
+    height: auto;
+    max-width: none;
+    max-height: 150px;
+}
+
+#button2{
+    text-align: center;
+    height: auto;
+    max-width: none;
+    max-height: 50px;
+}
+
+button{
+    background-color: #e6bd43;
+    min-width: 160px;
+    min-height: 40px;
+}
+section.Headline{
+   align-items: center;
+   border: 1px solid #000;
+   background-color: #777777;
+   max-height: 400px;
+
+}
+div{
+    min-height: 250px;
+}
+h2{
+    justify-content: center;
+}
+main article{
+    max-width: 300px;
+    min-width: 250px;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    padding: 1rem;
+    margin: auto;
+    justify-items: center;
+    justify-content: space-between;
+    vertical-align: baseline ;
+    align-items: center;
+    display: inline-block;
+
+}
+
+article img{
+    width: 100%;
+}
+
+.contacts{
+    list-style-type: none;
+    align-items: center;
+    border: 1px solid #000;
+    background-color: #777777;
+    max-height: 100px;
+}
+.sm {
+    padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  }
+  
+  
+  .sm:hover {
+    opacity: 0.7;
+  }
+  
+ 
+  .sm-fb {
+    background: #000;
+    color: white;
+    width: 5%;
+  }
+  
+ 
+  .sm-ig {
+    background: #000;
+    color: white;
+    width: 5%;
+  }
+
+  .sm-li{
+    background: #000;
+    color: white;
+    width: 5%;
+  }
+
+
+  iframe {
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    border: 1px solid #000;
+    background-color: #777777;
+    max-height: 500px;
+}
+
+
+footer{
+    text-align: center;
+    background: #000;
+    position:absolute;
+}
